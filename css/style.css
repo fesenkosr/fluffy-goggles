@@ -551,8 +551,44 @@ h2 {
 
 }
 .footer-main {
+    display: flex;
+    justify-content: space-between;
     color: white;
 }
+.footer-links{
+padding-right: 2em;
+}
+.footer__link{
+    text-decoration: none;
+    color: white;
+}
+li{
+padding-top: 2em;
+list-style: none;
+
+}
+
+.hi{
+color: rgb(239, 183, 43);
+font-weight: 600;
+
+}
+.line-footer{
+width: 100%;
+border-bottom: 1px solid white;
+order: 2;
+}
 .footer-disclaimer {
- margin-bottom: 2em;
+ text-align: center;
+ padding-top: 2em;
+ color: white   ;
+font-family: 'Open Sans', sans-serif;
+}
+.contacts{
+color: rgb(94, 172, 88);
+font-family: 'Open Sans',sans-serif;
+font-weight: 600;
+font-size: 50px;
+
+
 }
